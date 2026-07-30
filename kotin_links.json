@@ -3,11 +3,78 @@
   "WaterUrl": "https://github.com/KotinSupport/Kotin_Digital_Display_Driver_for_Liquid_Cooling_Radiator/releases/download/v1/Kotin.Digital.Display.Driver.for.Liquid.Cooling.Radiator.exe",
   "AirUrl": "https://github.com/KotinSupport/Kotin_aircooling_screen/releases/download/v1/air-cooling.control.software.exe",
   "GccUrl": "https://download.gigabyte.com/FileList/Utility/GCC_26.07.02.01.zip?v=e8c468c2aa4217bac6c7d7e472851f38",
-  "WindowsIsoUrl": "https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64_v2.iso?t=e77b12cd-3a8b-4452-bae9-519bf41c0246&P1=1785481084&P2=602&P3=2&P4=MdYvT7mO43QPZNDyrz1SNVZk%2bx7s3vrcmJqmA9q7M4DD%2bB2bHuXkK7fOpLsrRsjm1CzQbvSUx3vqdosedakr3A%2fs7o%2bvXj7S9bpBqT44xROk8ViCgaTlrdze6Wt3pkxA8nzi7FEtzNBbno9WDyPSifzv5CYI7h58F4dwslqlYjfScEjTnof1Nsfp4js0af6%2fGld9VJUXm1hg%2b8dijXOm6sTwqIKirT6ZBobOIfTXlrC%2fyqkV%2fg%2fWG7Tu%2fFCfqhJc8oackjTX9KkW42L4e6lkKVZuQWCtrVLskNbaGvNFlQ8kKBbL6ieCdgVdbjNQMi%2fcRDF3AgpAZZefPk9we4d5KA%3d%3d",
+  "WindowsIsoUrl": "",
+  "MediaCreationToolUrl": "https://go.microsoft.com/fwlink/?linkid=2156295",
   "Bios": [
     {
       "Board": "B850M-C",
       "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b"
+    }
+  ],
+  "Drivers": [
+    {
+      "Board": "B850M-C",
+      "Name": "AMD Chipset",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_597_chipset_8.03.25.247.zip?v=fc44742a45b2f8a2054e82289f94704e",
+      "Silent": "",
+      "Requires": "",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M-C",
+      "Name": "Realtek LAN",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_654_w11_11.29.50.0202.zip?v=04d967ff1547fbaee11375158ea0d33a",
+      "Silent": "",
+      "Requires": "",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M-C",
+      "Name": "Realtek Audio",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_612_realtekdch_6.0.9927.1.zip?v=5445439edfce59e0fe8c93e08214ced9",
+      "Silent": "",
+      "Requires": "",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M-C",
+      "Name": "Realtek Wi-Fi",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3701_realtek8922wifi_6102.24.143.0_n.zip?v=7fee4785f089787781030c3fb139b948",
+      "Silent": "",
+      "Requires": "wifi",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M-C",
+      "Name": "Realtek Bluetooth",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3702_realtek8922_18.4032.2510.0901.zip?v=bf7a1eb4d9511b3b631be5fce36accbf",
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M-C",
+      "Name": "Realtek ACX / LE Audio",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_4718_realtek8922_2.0.11.0_n.zip?v=5f9230c72298b5701a5c0a8f92d0ebe5",
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M-C",
+      "Name": "AMD APU graphics (integrated)",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_2689_apu5_25.10.42.0.zip?v=a964cd2136134d6c089aad730cdd2ea5",
+      "Silent": "",
+      "Requires": "gpu:amd",
+      "Type": "zip"
+    },
+    {
+      "Board": "*",
+      "Name": "NVIDIA App (graphics)",
+      "Url": "https://us.download.nvidia.com/nvapp/client/11.0.8.299/NVIDIA_app_v11.0.8.299.exe",
+      "Silent": "",
+      "Requires": "gpu:nvidia",
+      "Type": "exe"
     }
   ],
   "RemoteConfigUrl": ""
