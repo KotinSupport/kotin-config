@@ -7,8 +7,9 @@
   "MediaCreationToolUrl": "https://go.microsoft.com/fwlink/?linkid=2156295",
   "Bios": [
     {
-      "Board": "B850M C",
-      "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b"
+  "Board": "B850M C",
+  "Version": "F7c",
+  "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=..."
     }
   ],
   "Drivers": [
