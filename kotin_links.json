@@ -13,6 +13,16 @@
   ],
   "Drivers": [
     {
+      "Board": "*",
+      "Name": "GIGABYTE Control Center",
+      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.07.02.01.zip?v=e8c468c2aa4217bac6c7d7e472851f38",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:GIGABYTE Control Center",
+      "Version": "",
+      "Type": "zip"
+    },
+    {
       "Board": "B850M C",
       "Name": "AMD Chipset",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_597_chipset_8.03.25.247.zip?v=fc44742a45b2f8a2054e82289f94704e",
