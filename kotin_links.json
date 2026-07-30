@@ -1,0 +1,14 @@
+{
+  "ScreenUrl": "https://github.com/KotinSupport/Kotin_SecondaryScreen/releases/download/v1/KOTIN.exe",
+  "WaterUrl": "https://github.com/KotinSupport/Kotin_Digital_Display_Driver_for_Liquid_Cooling_Radiator/releases/download/v1/Kotin.Digital.Display.Driver.for.Liquid.Cooling.Radiator.exe",
+  "AirUrl": "https://github.com/KotinSupport/Kotin_aircooling_screen/releases/download/v1/air-cooling.control.software.exe",
+  "GccUrl": "https://download.gigabyte.com/FileList/Utility/GCC_26.07.02.01.zip?v=e8c468c2aa4217bac6c7d7e472851f38",
+  "WindowsIsoUrl": "",
+  "Bios": [
+    {
+      "Board": "B850M-C",
+      "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b"
+    }
+  ],
+  "RemoteConfigUrl": ""
+}
