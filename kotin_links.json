@@ -3,7 +3,7 @@
   "WaterUrl": "https://github.com/KotinSupport/Kotin_Digital_Display_Driver_for_Liquid_Cooling_Radiator/releases/download/v1/Kotin.Digital.Display.Driver.for.Liquid.Cooling.Radiator.exe",
   "AirUrl": "https://github.com/KotinSupport/Kotin_aircooling_screen/releases/download/v1/air-cooling.control.software.exe",
   "GccUrl": "https://download.gigabyte.com/FileList/Utility/GCC_26.07.02.01.zip?v=e8c468c2aa4217bac6c7d7e472851f38",
-  "WindowsIsoUrl": "",
+  "WindowsIsoUrl": "https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64_v2.iso?t=e77b12cd-3a8b-4452-bae9-519bf41c0246&P1=1785481084&P2=602&P3=2&P4=MdYvT7mO43QPZNDyrz1SNVZk%2bx7s3vrcmJqmA9q7M4DD%2bB2bHuXkK7fOpLsrRsjm1CzQbvSUx3vqdosedakr3A%2fs7o%2bvXj7S9bpBqT44xROk8ViCgaTlrdze6Wt3pkxA8nzi7FEtzNBbno9WDyPSifzv5CYI7h58F4dwslqlYjfScEjTnof1Nsfp4js0af6%2fGld9VJUXm1hg%2b8dijXOm6sTwqIKirT6ZBobOIfTXlrC%2fyqkV%2fg%2fWG7Tu%2fFCfqhJc8oackjTX9KkW42L4e6lkKVZuQWCtrVLskNbaGvNFlQ8kKBbL6ieCdgVdbjNQMi%2fcRDF3AgpAZZefPk9we4d5KA%3d%3d",
   "Bios": [
     {
       "Board": "B850M-C",
