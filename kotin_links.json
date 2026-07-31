@@ -11,7 +11,7 @@
     "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b",
     "Version": "F7c"
     }
-  ]
+  ],
   "Drivers": [
     {
       "Board": "*",
