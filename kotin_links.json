@@ -5,11 +5,12 @@
   "GccUrl": "https://download.gigabyte.com/FileList/Utility/GCC_26.07.02.01.zip?v=e8c468c2aa4217bac6c7d7e472851f38",
   "WindowsIsoUrl": "https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64_v2.iso?t=6cca01f6-a6ed-4347-b6c8-2a87aa5319df&P1=1785548392&P2=602&P3=2&P4=vrO6aHeVr9Tf55mZJPIJQWmfiAnAz1JuoQOSHrbpx%2fbZFkodw7%2f7ufNPhZiUlAxHIOFDB1VsVkcL%2fxYER%2byoc3K3JtBjRn%2bxJhzDgP490o9eTRvlZYZZ3fiNV0mko6DR7T1jjS6I3lHChbsVFgcoRka3wTX8ir4XHfNpVEQ0lKG242ktWrlim51lMGo8y19S%2b60BNTIKZ9izkTKu7poOuK4rYXwBFSRQ%2fotfRWWtm85%2fYkL%2fRNrYlNIjBrac13xuHuUinQ88K6mkBu8sxXyviVS4PSlj9c%2bJUwyvwwaBi8kZpT1PrwolzV71ACPPR9ENDnFxnsN7JLEhLgUjnlG7BQ%3d%3d",
   "MediaCreationToolUrl": "https://go.microsoft.com/fwlink/?linkid=2156295",
+  "MemTest86Url": "",
   "Bios": [
     {
-    "Board": "B850M C",
-    "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b",
-    "Version": "F7c"
+      "Board": "B850M C",
+      "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b",
+      "Version": "F7c"
     }
   ],
   "Drivers": [
@@ -24,60 +25,84 @@
       "Type": "zip"
     },
     {
+      "Board": "*",
+      "Name": "NVIDIA App (graphics)",
+      "Url": "https://us.download.nvidia.com/nvapp/client/11.0.8.299/NVIDIA_app_v11.0.8.299.exe",
+      "Silent": "",
+      "Requires": "gpu:nvidia",
+      "Detect": "app:NVIDIA App",
+      "Version": "11.0.8.299",
+      "Type": "exe"
+    },
+    {
       "Board": "B850M C",
       "Name": "AMD Chipset",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_597_chipset_8.03.25.247.zip?v=fc44742a45b2f8a2054e82289f94704e",
-      "Silent": "", "Requires": "",
-      "Detect": "app:AMD Chipset Software", "Version": "8.03.25.247", "Type": "zip"
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:AMD Chipset Software",
+      "Version": "8.03.25.247",
+      "Type": "zip"
     },
     {
       "Board": "B850M C",
       "Name": "Realtek LAN",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_654_w11_11.29.50.0202.zip?v=04d967ff1547fbaee11375158ea0d33a",
-      "Silent": "", "Requires": "",
-      "Detect": "app:Realtek Ethernet Controller Driver", "Version": "11.29.50.0202", "Type": "zip"
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:Realtek Ethernet Controller Driver",
+      "Version": "11.29.50.0202",
+      "Type": "zip"
     },
     {
       "Board": "B850M C",
       "Name": "Realtek Audio",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_612_realtekdch_6.0.9927.1.zip?v=5445439edfce59e0fe8c93e08214ced9",
-      "Silent": "", "Requires": "",
-      "Detect": "app:Realtek Audio Driver", "Version": "6.0.9927.1", "Type": "zip"
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:Realtek Audio Driver",
+      "Version": "6.0.9927.1",
+      "Type": "zip"
     },
     {
       "Board": "B850M C",
       "Name": "Realtek Wi-Fi",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3701_realtek8922wifi_6102.24.143.0_n.zip?v=7fee4785f089787781030c3fb139b948",
-      "Silent": "", "Requires": "wifi",
-      "Detect": "driver:Realtek 8922AE WiFi 7", "Version": "6102.24.143.0", "Type": "zip"
+      "Silent": "",
+      "Requires": "wifi",
+      "Detect": "driver:Realtek 8922AE WiFi 7",
+      "Version": "6102.24.143.0",
+      "Type": "zip"
     },
     {
       "Board": "B850M C",
       "Name": "Realtek Bluetooth",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3702_realtek8922_18.4032.2510.0901.zip?v=bf7a1eb4d9511b3b631be5fce36accbf",
-      "Silent": "", "Requires": "bluetooth",
-      "Detect": "driver:Realtek Bluetooth LEAI Driver", "Version": "18.4032.2510.0901", "Type": "zip"
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Detect": "driver:Realtek Bluetooth LEAI Driver",
+      "Version": "18.4032.2510.0901",
+      "Type": "zip"
     },
     {
       "Board": "B850M C",
       "Name": "Realtek ACX / LE Audio",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_4718_realtek8922_2.0.11.0_n.zip?v=5f9230c72298b5701a5c0a8f92d0ebe5",
-      "Silent": "", "Requires": "bluetooth",
-      "Detect": "driver:Realtek Bluetooth LE Audio Driver", "Version": "2.0.11.0", "Type": "zip"
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Detect": "driver:Realtek Bluetooth LE Audio Driver",
+      "Version": "2.0.11.0",
+      "Type": "zip"
     },
     {
       "Board": "B850M C",
       "Name": "AMD APU graphics (integrated)",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_2689_apu5_25.10.42.0.zip?v=a964cd2136134d6c089aad730cdd2ea5",
-      "Silent": "", "Requires": "gpu:amd",
-      "Detect": "driver:AMD Radeon(TM) Graphics", "Version": "", "Type": "zip"
-    },
-    {
-      "Board": "*",
-      "Name": "NVIDIA App (graphics)",
-      "Url": "https://us.download.nvidia.com/nvapp/client/11.0.8.299/NVIDIA_app_v11.0.8.299.exe",
-      "Silent": "", "Requires": "gpu:nvidia",
-      "Detect": "app:NVIDIA App", "Version": "11.0.8.299", "Type": "exe"
+      "Silent": "",
+      "Requires": "gpu:amd",
+      "Detect": "driver:AMD Radeon(TM) Graphics",
+      "Version": "",
+      "Type": "zip"
     }
   ],
   "RemoteConfigUrl": ""
