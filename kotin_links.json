@@ -10,7 +10,9 @@
     { "Cpu": "9600X",   "Cooler": "air"   },
     { "Cpu": "9700X",   "Cooler": "water" },
     { "Cpu": "7800X3D", "Cooler": "water" },
-    { "Cpu": "9800X3D", "Cooler": "water" }
+    { "Cpu": "9800X3D", "Cooler": "water" },
+    { "Cpu": "265KF", "Cooler": "water" },
+    { "Cpu": "226V", "Cooler": "air" }
   ],
 
   "Bios": [
