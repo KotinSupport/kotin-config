@@ -16,11 +16,11 @@
     {
       "Board": "*",
       "Name": "GIGABYTE Control Center",
-      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.07.02.01.zip?v=e8c468c2aa4217bac6c7d7e472851f38",
+      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
       "Silent": "",
       "Requires": "",
       "Detect": "app:GIGABYTE Control Center",
-      "Version": "",
+      "Version": "26.08.03.01",
       "Type": "zip"
     },
     {
@@ -100,7 +100,7 @@
       "Silent": "",
       "Requires": "gpu:amd",
       "Detect": "driver:AMD Radeon(TM) Graphics",
-      "Version": "",
+      "Version": "25.10.42.0",
       "Type": "zip"
     }
   ],
