@@ -30,7 +30,17 @@
 
   "Drivers": [
     {
-      "Board": "*",
+      "Board": "B850M C",
+      "Name": "GIGABYTE Control Center",
+      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:GIGABYTE Control Center",
+      "Version": "",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
       "Name": "GIGABYTE Control Center",
       "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
       "Silent": "",
