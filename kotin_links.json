@@ -34,7 +34,7 @@
       "Name": "GIGABYTE Control Center",
       "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
       "Silent": "",
-      "Requires": "",
+      "Requires": "*",
       "Detect": "app:GIGABYTE Control Center",
       "Version": "*",
       "Type": "zip"
