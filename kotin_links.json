@@ -1,0 +1,281 @@
+{
+  "ScreenUrl": "https://github.com/KotinSupport/Kotin_SecondaryScreen/releases/download/v1/KOTIN.exe",
+  "WaterUrl": "https://github.com/KotinSupport/Kotin_Digital_Display_Driver_for_Liquid_Cooling_Radiator/releases/download/v1/Kotin.Digital.Display.Driver.for.Liquid.Cooling.Radiator.exe",
+  "AirUrl": "https://github.com/KotinSupport/Kotin_aircooling_screen/releases/download/v1/air-cooling.control.software.exe",
+  "GccUrl": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
+  "WindowsIsoUrl": "https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64_v2.iso?t=f39c0724-6b08-4963-ad42-730aa4ea3b7e&P1=1785966281&P2=602&P3=2&P4=jevZMzKdUYCjkgOcfmOgAkf2%2fErBZkPmNprmPnw4VrrHM1XzsxDjadxBpq%2bzCfN2wNcHQ85fGZeX79tsQ6AXLHNwLUrNE%2fLyKZFBbcH6gTBSD3w7FOudL5Idvq8uU%2f5jVJ0RTh4w1w3ArXpRgszFPITwtU8CAACQHlgRdLMX7bgqwyE8SynuKC1VPeuK5zGGm91Y74IHY5YaZ%2byKq%2bBmNkdp2RUxSlTXDwj1txcm%2fK0zzfY4sxAb01nDzLanLjri713itzNCqQGfCbMCw46m22zf%2bHZnA%2beVdR54giqpDKdsuIzULGjTcKFJQLEq0SZiiAeGh1W3NJ4dThXpWvG%2fXg%3d%3d",
+  "MediaCreationToolUrl": "https://go.microsoft.com/fwlink/?linkid=2156295",
+
+  "Coolers": [
+    { "Cpu": "9600X",   "Cooler": "air"   },
+    { "Cpu": "9700X",   "Cooler": "water" },
+    { "Cpu": "7800X3D", "Cooler": "water" },
+    { "Cpu": "9800X3D", "Cooler": "water" },
+    { "Cpu": "265KF", "Cooler": "water" },
+    { "Cpu": "226V", "Cooler": "air" }
+  ],
+
+  "Bios": [
+    {
+      "Board": "B850M C",
+      "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b850m-c_8arpl368_f7c.zip?v=5df11b82490788f9011ae0b07e25539b",
+      "Version": "F7c"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Url": "https://download.gigabyte.com/FileList/BIOS/mb_bios_b860-ds3h-wifi6e_8aarl408_f11.zip?v=5f2e53eaf2c70e44f03b4a91e3ea20c7",
+      "Version": "F11"
+    }
+  ],
+
+  "Drivers": [
+    {
+      "Board": "B850M C",
+      "Name": "GIGABYTE Control Center",
+      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:GIGABYTE Control Center",
+      "Version": "",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "GIGABYTE Control Center",
+      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:GIGABYTE Control Center",
+      "Version": "",
+      "Type": "zip"
+    },
+    {
+      "Board": "*",
+      "Name": "NVIDIA App",
+      "Url": "https://us.download.nvidia.com/nvapp/client/11.0.8.299/NVIDIA_app_v11.0.8.299.exe",
+      "Silent": "",
+      "Requires": "gpu:nvidia",
+      "Detect": "app:NVIDIA App",
+      "Version": "11.0.8.299",
+      "Type": "exe"
+    },
+
+    {
+      "Board": "B850M C",
+      "Name": "AMD Chipset",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_597_chipset_8.03.25.247.zip?v=fc44742a45b2f8a2054e82289f94704e",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:AMD Chipset Software",
+      "Version": "8.03.25.247",
+      "Type": "zip"
+    },
+
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Chipset (INF Update Utility)",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3699_infupdate_10.1.20378.8757_n.zip?v=89e5c6fcfa4bb34b78aae15cc4378725",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "10.1.20378.8757",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Management Engine",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3697_consumer_2553.8.58.0.zip?v=a762986657c86d5baf95a7976a72aa8e",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:Intel(R) Management Engine Components",
+      "Version": "2553.8.58.0",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Serial I/O",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3698_serialio_30.100.2529.2_v2.zip?v=fb00c092aa821cb6ee7d5b136b8be52b",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "30.100.2529.2",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel HID Event Filter",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3695_hid_2.2.2.17_n.zip?v=4cd88de68ed58bd93451b4b133561c74",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "2.2.2.17",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Platform Monitoring Technology",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3693_pmt_3.1.2.6_n.zip?v=ef1a4d56f023933cc23c793b58030828",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "3.1.2.6",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel 800 Platform Performance Package",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_4723_ippp_26.03.100.7_n.zip?v=cff11ef4918afe69655301e67287b028",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "26.03.100.7",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Gaussian Neural Accelerator",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3692_gna_3.5.0.1611.zip?v=dd61d5a093c0f4c5b8309de404150bd1",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "3.5.0.1611",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel NPU (Neural Processing Unit)",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3694_npu_32.0.100.4404.zip?v=548ca2b74ebc06b8b56dbdfea3b2b756",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "",
+      "Version": "32.0.100.4404",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Rapid Storage Technology",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3709_irst_20.2.6.1025.3_n.zip?v=c491c7ad2e3a27cd56f2a99eff449f37",
+      "Silent": "",
+      "Requires": "",
+      "Detect": "app:Intel(R) Rapid Storage Technology",
+      "Version": "20.2.6.1025.3",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel integrated graphics",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3696_graphicdch_32.0.101.8331.zip?v=e4e86f0072cf0139c7fc408d1bcd8546",
+      "Silent": "",
+      "Requires": "gpu:intel",
+      "Detect": "",
+      "Version": "32.0.101.8331",
+      "Type": "zip"
+    },
+
+    {
+      "Board": "*",
+      "Name": "Realtek LAN",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_654_w11_11.29.50.0202.zip?v=04d967ff1547fbaee11375158ea0d33a",
+      "Silent": "",
+      "Requires": "lan:realtek",
+      "Detect": "app:Realtek Ethernet Controller Driver",
+      "Version": "11.29.50.0202",
+      "Type": "zip"
+    },
+    {
+      "Board": "*",
+      "Name": "Realtek Audio",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_612_realtekdch_6.0.9927.1.zip?v=5445439edfce59e0fe8c93e08214ced9",
+      "Silent": "",
+      "Requires": "audio:realtek",
+      "Detect": "app:Realtek Audio Driver",
+      "Version": "6.0.9927.1",
+      "Type": "zip"
+    },
+
+    {
+      "Board": "B850M C",
+      "Name": "Realtek Wi-Fi",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3701_realtek8922wifi_6102.24.143.0_n.zip?v=7fee4785f089787781030c3fb139b948",
+      "Silent": "",
+      "Requires": "wifi",
+      "Detect": "driver:Realtek 8922AE WiFi 7",
+      "Version": "6102.24.143.0",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Realtek Wi-Fi (8852)",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_674_realtek8852wifi_6001.16.172.0.zip?v=708401870e388b0996a2d341ab6bb3ec",
+      "Silent": "",
+      "Requires": "hwid:VEN_10EC&DEV_8852",
+      "Detect": "",
+      "Version": "6001.16.172.0",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M C",
+      "Name": "Realtek Bluetooth",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3702_realtek8922_18.4032.2510.0901.zip?v=bf7a1eb4d9511b3b631be5fce36accbf",
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Detect": "driver:Realtek Bluetooth LEAI Driver",
+      "Version": "18.4032.2510.0901",
+      "Type": "zip"
+    },
+    {
+      "Board": "B850M C",
+      "Name": "Realtek ACX / LE Audio",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_4718_realtek8922_2.0.11.0_n.zip?v=5f9230c72298b5701a5c0a8f92d0ebe5",
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Detect": "driver:Realtek Bluetooth LE Audio Driver",
+      "Version": "2.0.11.0",
+      "Type": "zip"
+    },
+
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Wi-Fi",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_630_dchsetup_24.10.0.4.zip?v=95ce37d539cedb52271ea66971835122",
+      "Silent": "",
+      "Requires": "wifi",
+      "Detect": "",
+      "Version": "24.10.0.4",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Intel Bluetooth",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_607_win10_24.10.0.4.zip?v=18d36998bd66ef49d3dadb3b95a70913",
+      "Silent": "",
+      "Requires": "bluetooth",
+      "Detect": "",
+      "Version": "24.10.0.4",
+      "Type": "zip"
+    },
+    {
+      "Board": "B860 DS3H",
+      "Name": "Realtek 8852 Bluetooth",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_675_realtek8852_18.4032.2510.0900_n.zip?v=4ab3a0d8b976c1d80bff390f3c61c18c",
+      "Silent": "",
+      "Requires": "hwid:VEN_10EC&DEV_8852",
+      "Detect": "",
+      "Version": "18.4032.2510.0900",
+      "Type": "zip"
+    },
+
+    {
+      "Board": "B850M C",
+      "Name": "AMD APU graphics (integrated)",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_2689_apu5_25.10.42.0.zip?v=a964cd2136134d6c089aad730cdd2ea5",
+      "Silent": "",
+      "Requires": "gpu:amd",
+      "Detect": "driver:AMD Radeon(TM) Graphics",
+      "Version": "",
+      "Type": "zip"
+    }
+  ],
+
+  "RemoteConfigUrl": ""
+}
