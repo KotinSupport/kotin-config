@@ -195,6 +195,16 @@
       "Type": "zip"
     },
     {
+      "Board": "B860 DS3H",
+      "Name": "Realtek Wi-Fi",
+      "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3701_realtek8922wifi_6102.24.143.0_n.zip?v=7fee4785f089787781030c3fb139b948",
+      "Silent": "",
+      "Requires": "wifi",
+      "Detect": "driver:Realtek 8922AE WiFi 7",
+      "Version": "6102.24.143.0",
+      "Type": "zip"
+    },
+    {
       "Board": "B850M C",
       "Name": "Realtek Bluetooth",
       "Url": "https://download.gigabyte.com/FileList/Driver/mb_driver_3702_realtek8922_18.4032.2510.0901.zip?v=bf7a1eb4d9511b3b631be5fce36accbf",
