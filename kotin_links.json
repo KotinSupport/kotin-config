@@ -28,17 +28,7 @@
 
   "Drivers": [
     {
-      "Board": "B850M C",
-      "Name": "GIGABYTE Control Center",
-      "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
-      "Silent": "",
-      "Requires": "",
-      "Detect": "app:GIGABYTE Control Center",
-      "Version": "26.08.03.01",
-      "Type": "zip"
-    },
-    {
-      "Board": "B860 DS3H",
+      "Board": "*",
       "Name": "GIGABYTE Control Center",
       "Url": "https://download.gigabyte.com/FileList/Utility/GCC_26.08.03.01.zip?v=e5acc0187ea19e5337cee2f756594ace",
       "Silent": "",
@@ -49,7 +39,7 @@
     },
    
     {
-      "Board": "B850M C",
+      "Board": "*",
       "Name": "NVIDIA App (graphics)",
       "Url": "https://us.download.nvidia.com/nvapp/client/11.0.8.299/NVIDIA_app_v11.0.8.299.exe",
       "Silent": "",
@@ -58,17 +48,6 @@
       "Version": "11.0.8.299",
       "Type": "exe"
     },
-    {
-      "Board": "B860 DS3H",
-      "Name": "NVIDIA App (graphics)",
-      "Url": "https://us.download.nvidia.com/nvapp/client/11.0.8.299/NVIDIA_app_v11.0.8.299.exe",
-      "Silent": "",
-      "Requires": "gpu:nvidia",
-      "Detect": "app:NVIDIA App",
-      "Version": "11.0.8.299",
-      "Type": "exe"
-    },
-
 
     {
       "Board": "B850M C",
