@@ -34,7 +34,7 @@
       "Silent": "",
       "Requires": "",
       "Detect": "app:GIGABYTE Control Center",
-      "Version": "26.08.03.01",
+      "Version": "*",
       "Type": "zip"
     },
    
